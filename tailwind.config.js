@@ -40,7 +40,7 @@ module.exports = {
         },
         backgroundImage: {
           'hero-pattern':
-            "url('/Desktop/dashboard/src/data/dashboardBg.png')",
+            "url('../src/data/dashboardBg.png')",
         },
       },
     },
