@@ -76,9 +76,11 @@ export default Sidebar
  * 
  * In the code, a loop is used to iterate through the links array and render the corresponding elements.
  * 
- * napisati da je ubacena funkcinalnost handleclosesidebar pomocu screensize koji prati rezoluciju ekrana
- * na rezolucijama vecim od 900px meni ostaje otvoren kada se izabere opcija
+ * The handleCloseSidebar functionality has been implemented in the project. It allows the sidebar menu 
+ * to remain open when an item is selected, but only on screen resolutions larger than 900px.
  * 
- * na rezolucijama manjim od 900px meni je sakriven, takodje ubacena je funkcionalnost da kada se na rezolucijama manjim od 900 izabere stavka iz menija on se
- * odmah zatvara
+ * The handleCloseSidebar function is responsible for handling the closing of the sidebar. It checks if 
+ * activeMenu is defined and if the screenSize is less than or equal to 900. If both conditions are met, it 
+ * sets the activeMenu state to false, effectively closing the sidebar.
+ * 
  */

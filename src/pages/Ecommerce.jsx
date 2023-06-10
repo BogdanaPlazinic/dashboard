@@ -63,23 +63,23 @@ const Ecommerce = () => {
                 </div>
             </div>
 
-            <div className=' flex flex-wrap justify-center space-x-10 space-y-10'>
+            <div className=' flex flex-wrap justify-center space-x-10 space-y-10 '>
                 <div className=' bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780'>
-                    <div className=' flex justify-between'>
-                    <p className=' font-semibold text-xl'>Revenue Updates</p>
+                    <div className=' flex justify-around'>
+                    <p className=' font-semibold text-l'>Revenue Updates</p>
                     <div className=' flex items-center space-x-4'>
                         <p className=' flex items-center space-x-2 text-gray-600 hover:drop-shadow-xl'>   
                             <span><GoPrimitiveDot /></span>
-                            <span>Expense</span>
+                            <span className=' text-sm'>Expense</span>
                         </p> 
                         <p className=' flex items-center space-x-2 text-green-400 hover:drop-shadow-xl'>   
                             <span><GoPrimitiveDot /></span>
-                            <span>Budget</span>
+                            <span className=' text-sm'>Budget</span>
                         </p> 
                     </div>
                     </div>
 
-                    <div className=' flex justify-center flex-wrap space-x-10 mt-10 '>
+                    <div className=' flex justify-center flex-wrap mt-10 '>
                         <div className=' border-r-1 border-color m-4 pr-10'>
                             <div>
                                 <p>
@@ -127,7 +127,7 @@ const Ecommerce = () => {
                         </div>
                         <div>
                             <Stacked 
-                            width='320px'
+                            width='280px'
                             height='360px'
                             />
                         </div>
