@@ -17,7 +17,7 @@ It is fully responsive.
 ![dashboard-mob](https://github.com/BogdanaPlazinic/dashboard/assets/117298517/7efa4b41-8cc5-471a-9493-ecec9e91d8c3)
 
 
-# Folder structure
+# Working environment
 
 ## Getting Started with Create React App
 
