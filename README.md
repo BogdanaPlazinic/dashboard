@@ -5,7 +5,7 @@ It is fully responsive.
 
 **Technology used in this project:** ReactJS, [Syncfusion](https://www.syncfusion.com), Tailwind.
 
-**Live demo:** https://bogdana-dashboard.netlify.app
+**Live preview:** https://bogdana-dashboard.netlify.app
 
 **Desktop view:**
 
